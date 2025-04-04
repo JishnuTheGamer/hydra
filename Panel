@@ -46,7 +46,7 @@ echo_message "* Installing Files"
 
 # Create directory, clone repository, and install files
 
-git clone https://github.com/draco-labes/DracoPanel.git && cd DracoPanel && npm install && npm run seed && npm run createUser && node .
+https://github.com/HydraLabs-beta/panel.git && cd panel && npm install && npm run seed && npm run createUser && node .
 
 echo_message "* Installed Files"
 
